@@ -1,8 +1,6 @@
 VanirAOSP's Android ROM project manifest
-===========
 
 This branch is for Vanir's android-5.0.0_r5 based ROM
-
 
 Getting Started
 ---------------

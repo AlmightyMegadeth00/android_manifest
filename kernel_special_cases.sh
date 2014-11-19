@@ -5,7 +5,7 @@
 export remote="cm"
 export remoterevision="cm-12.0"
 
-case $1 in 
+case $1 in
     anzu|coconut|haida|hallon|iyokan|mango|satsuma|smultron|urushi)
         export remote="github"
         export kernelsource="LegacyXperia/android_kernel_semc_msm7x30"
@@ -58,30 +58,25 @@ case $1 in
         export kernelsource="xboxfanj/kernel_msm"
     ;;
     hammerhead)
-#        export remote="github"
-        export remoterevision="staging/cm-12.0" #"jim_kk_mr2"
-#        export kernelsource="jimsth/vanir_hammerhead"
+        export remote="github"
+        export remoterevision="jim_l5"
+        export kernelsource="jimsth/vanir_hammerhead"
     ;;
     jactivelte*)
         export remote="github"
         export remoteversion="cm-11.0"
         export kernelsource="spegelius/android_kernel_samsung_jactivelte"
     ;;
-    jflte*)
-        export remote="vanir"
-        export remoterevision="kk44"
-        export kernelsource="kernel_samsung_jf"
-    ;;
     klimtwifi)
         export remote="vanir"
         export remoterevision="kk44"
         export kernelsource="kernel_samsung_exynos5420"
     ;;
-    klte*)
-        export remote="vanir"
-        export remoterevision="kk44"
-        export kernelsource="kernel_samsung_klte"
-    ;;
+#    klte*)
+#        export remote="vanir"
+#        export remoterevision="kk44"
+#        export kernelsource="kernel_samsung_klte"
+#    ;;
     dlx)
         export remote="vanir"
         export remoterevision="kk44"
